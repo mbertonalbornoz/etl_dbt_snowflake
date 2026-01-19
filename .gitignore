@@ -1,6 +1,11 @@
 # folders
-.idea
+target/
+dbt_packages/
+logs/
+.idea/
 
 # files
 .DS_Store
+.user.yml
 rsa_key.p8
+airbnb/profiles.yml
