@@ -2,10 +2,11 @@
 target/
 dbt_packages/
 logs/
-.idea/
+.idea/*
 
 # files
 .DS_Store
 .user.yml
 rsa_key.p8
+rsa_key.pub
 airbnb/profiles.yml
