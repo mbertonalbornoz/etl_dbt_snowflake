@@ -1,0 +1,6 @@
+# folders
+.idea
+
+# files
+.DS_Store
+.rsa_key.p8
