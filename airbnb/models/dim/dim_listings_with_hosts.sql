@@ -5,7 +5,7 @@ WITH src_listings AS (
         SELECT * FROM {{ ref('dim_hosts_cleansed') }}
     )
 SELECT l.listing_id
-     , l.listing_name
+    , l.listing_name
     , l.room_type
     , l.minimum_nights
     , l.price

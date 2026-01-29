@@ -1,0 +1,15 @@
+version: 2
+
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://3935a2b1.us1a.app.preset.io/superset/dashboard/9/?edit=true&native_filters_key=26TbcyIc5O7mb2JOkCvfOi-s54kQJw2r2c-IjU5fx4kqqyUgtgC6vZKHD4nIo8Oh
+
+    depends_on:
+      - ref('dim_listings_cleansed')
+      - ref('mart_full_moon_reviews')
+
+    owner:
+      name: Me
+      email: me@me.com
